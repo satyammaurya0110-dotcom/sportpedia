@@ -1,8 +1,691 @@
-1|Virat Kohli|Cricket|Virat Kohli is an Indian international cricketer and former captain of the Indian national team who plays as a right-handed batsman for Royal Challengers Bengaluru. Widely regarded as one of the greatest batsmen in the history of the sport, he holds numerous records including most ODI centuries.
-2|Lionel Messi|Football|Lionel Andrés Messi is an Argentine professional footballer who plays as a forward and captains Inter Miami. Having won a record eight Ballon d'Or awards and leading Argentina to FIFA World Cup glory in 2022, he is celebrated globally as an icon of the game.
-3|Novak Djokovic|Tennis|Novak Djokovic is a Serbian professional tennis player currently holding the all-time record for the most Grand Slam men's singles titles. Known for his exceptional return of serve, mental resilience, and court coverage.
-4|Olympic Games|Multi-Sport|The Olympic Games are international multi-sport events held every four years, originating in ancient Greece and revived in 1896 by Pierre de Coubertin. They represent the pinnacle of athletic competition across summer and winter disciplines.
-5|MS Dhoni|Cricket|Mahendra Singh Dhoni is an Indian professional cricketer who captained India in limited-overs formats from 2007 to 2016 and in Test cricket from 2008 to 2014. Under his captaincy, India won three major ICC trophies including the 2011 Cricket World Cup.
-6|Lewis Hamilton|Formula 1|Sir Lewis Carl Davidson Hamilton is a British racing driver competing in Formula One, driving for Mercedes. He shares the record for the most World Drivers' Championship titles (seven) with Michael Schumacher and holds records for the most wins, pole positions, and podium finishes.
-7|Magnus Carlsen|Chess|Sven Magnus Øen Carlsen is a Norwegian chess grandmaster who is a five-time World Chess Championship holder. He is widely considered one of the greatest players in chess history, holding the highest-ever live rating.
-8|LeBron James|Basketball|LeBron Raymone James Sr. is an American professional basketball player for the Los Angeles Lakers in the NBA. Often compared to Michael Jordan in debates over the greatest basketball player of all time, he is the NBA's all-time leading scorer.
+[TITLE] Cricket History and Evolution
+[CATEGORY] Cricket
+[SNIPPET] Cricket is a bat-and-ball game played between two teams of eleven players on a 20-meter pitch. Originating in 16th-century England, it is governed globally by the ICC and played in Test, ODI, and T20 formats.
+
+[TITLE] Sachin Tendulkar
+[CATEGORY] Cricket
+[SNIPPET] Sachin Ramesh Tendulkar is an Indian former international cricketer who captained the Indian national team. Widely regarded as one of the greatest batsmen in cricket history, he is the only player to have scored one hundred international centuries.
+
+[TITLE] Virat Kohli
+[CATEGORY] Cricket
+[SNIPPET] Virat Kohli is an Indian international cricketer and former captain of the Indian national team. Regarded as one of the best contemporary batsmen and arguably the greatest ODI run-chaser in history, with over 80 international centuries.
+
+[TITLE] MS Dhoni
+[CATEGORY] Cricket
+[SNIPPET] Mahendra Singh Dhoni is a former Indian international cricketer who captained India in limited-overs formats. Under his leadership, India won the 2007 T20 World Cup, 2011 ODI World Cup, and 2013 Champions Trophy.
+
+[TITLE] Rohit Sharma
+[CATEGORY] Cricket
+[SNIPPET] Rohit Gurunath Sharma is an Indian international cricketer and the captain of the Indian national team in all formats. Known for his elegant pull shots and record-breaking three ODI double centuries, including a highest score of 264.
+
+[TITLE] Jasprit Bumrah
+[CATEGORY] Cricket
+[SNIPPET] Jasprit Bumrah is an Indian international cricketer who plays for the Indian national team in all formats. Widely regarded as one of the best fast bowlers in modern cricket, known for his unique unorthodox action and lethal yorkers.
+
+[TITLE] Ravindra Jadeja
+[CATEGORY] Cricket
+[SNIPPET] Ravindra Jadeja is an Indian international cricketer who represents the Indian team across all formats. He is an elite all-rounder known for his left-arm spin bowling, aggressive lower-order batting, and exceptional world-class fielding.
+
+[TITLE] Hardik Pandya
+[CATEGORY] Cricket
+[SNIPPET] Hardik Pandya is an Indian international cricketer who is a premier fast-bowling all-rounder and a dynamic match-finisher for the Indian limited-overs squads.
+
+[TITLE] Suryakumar Yadav
+[CATEGORY] Cricket
+[SNIPPET] Suryakumar Yadav is an Indian international cricketer known as one of the world's finest T20 batsmen, famous for his unorthodox 360-degree shot-making across the field.
+
+[TITLE] Rishabh Pant
+[CATEGORY] Cricket
+[SNIPPET] Rishabh Pant is an Indian international cricketer who plays as a wicket-keeper batsman, renowned for his fearless match-winning counter-attacking innings in Test matches overseas.
+
+[TITLE] KL Rahul
+[CATEGORY] Cricket
+[SNIPPET] KL Rahul is an Indian international cricketer who plays as a versatile top-order batsman and wicket-keeper across all formats.
+
+[TITLE] Mohammed Shami
+[CATEGORY] Cricket
+[SNIPPET] Mohammed Shami is an Indian fast bowler known for his immaculate seam position and ability to pick up crucial wickets in both red-ball and white-ball cricket.
+
+[TITLE] Shubman Gill
+[CATEGORY] Cricket
+[SNIPPET] Shubman Gill is an Indian opening batsman widely considered one of the brightest young talents in world cricket, known for his classical technique.
+
+[TITLE] Ravichandran Ashwin
+[CATEGORY] Cricket
+[SNIPPET] Ravichandran Ashwin is an Indian international cricketer who is one of the greatest spin bowlers and match-winners in Test cricket history.
+
+[TITLE] Shreyas Iyer
+[CATEGORY] Cricket
+[SNIPPET] Shreyas Iyer is an Indian middle-order batsman known for his aggressive spin-hitting capabilities in ODI and Test cricket.
+
+[TITLE] Axar Patel
+[CATEGORY] Cricket
+[SNIPPET] Axar Patel is an Indian all-rounder known for his accurate left-arm orthodox spin and crucial lower-order batting contributions.
+
+[TITLE] Kuldeep Yadav
+[CATEGORY] Cricket
+[SNIPPET] Kuldeep Yadav is an Indian wrist-spinner whose left-arm unorthodox bowling (chinaman) consistently troubles world-class batsmen.
+
+[TITLE] Arshdeep Singh
+[CATEGORY] Cricket
+[SNIPPET] Arshdeep Singh is an Indian left-arm pace bowler renowned for his composure and precision in death-over situations during T20 matches.
+
+[TITLE] Ishan Kishan
+[CATEGORY] Cricket
+[SNIPPET] Ishan Kishan is an explosive Indian left-handed opening batsman and wicket-keeper.
+
+[TITLE] Sanju Samson
+[CATEGORY] Cricket
+[SNIPPET] Sanju Samson is an Indian wicket-keeper batsman known for his elegant strokeplay and clean six-hitting ability.
+
+[TITLE] Yashasvi Jaiswal
+[CATEGORY] Cricket
+[SNIPPET] Yashasvi Jaiswal is a dynamic young Indian opening batsman who made a sensational impact in Test cricket with explosive double centuries.
+
+[TITLE] Ruturaj Gaikwad
+[CATEGORY] Cricket
+[SNIPPET] Ruturaj Gaikwad is an Indian opening batsman known for his technical correctness and steady composure in domestic and international cricket.
+
+[TITLE] Washington Sundar
+[CATEGORY] Cricket
+[SNIPPET] Washington Sundar is an Indian all-rounder who contributes with effective off-spin and resilient batting under pressure.
+
+[TITLE] Tilak Varma
+[CATEGORY] Cricket
+[SNIPPET] Tilak Varma is a promising young Indian middle-order batsman known for his calm temperament in white-ball cricket.
+
+[TITLE] Rinku Singh
+[CATEGORY] Cricket
+[SNIPPET] Rinku Singh is an Indian T20 specialist renowned for his incredible finishing skills and composure under extreme match pressure.
+
+[TITLE] Shivam Dube
+[CATEGORY] Cricket
+[SNIPPET] Shivam Dube is an Indian all-rounder known for his explosive power-hitting against spin bowling in middle overs.
+
+[TITLE] Prasidh Krishna
+[CATEGORY] Cricket
+[SNIPPET] Prasidh Krishna is an Indian fast bowler known for his tall frame and steep bounce.
+
+[TITLE] Umran Malik
+[CATEGORY] Cricket
+[SNIPPET] Umran Malik is an Indian fast bowler who gained international attention for consistently crossing the 150 km/h speed barrier.
+
+[TITLE] Bhuvneshwar Kumar
+[CATEGORY] Cricket
+[SNIPPET] Bhuvneshwar Kumar is an Indian swing-bowling maestro known for his mastery in powerplay and death-over bowling.
+
+[TITLE] Ajinkya Rahane
+[CATEGORY] Cricket
+[SNIPPET] Ajinkya Rahane is an Indian Test specialist and former captain renowned for his gritty overseas centuries and calm leadership.
+
+[TITLE] Cheteshwar Pujara
+[CATEGORY] Cricket
+[SNIPPET] Cheteshwar Pujara is an Indian Test batting legend known for his defensive resilience and wearing down opposition bowling attacks.
+
+[TITLE] Ishant Sharma
+[CATEGORY] Cricket
+[SNIPPET] Ishant Sharma is an experienced Indian fast bowler with over 100 Test appearances, famous for his fiery spell at Lord's in 2014.
+
+[TITLE] Umesh Yadav
+[CATEGORY] Cricket
+[SNIPPET] Umesh Yadav is an Indian fast bowler known for his raw pace and reverse-swing abilities in home Test matches.
+
+[TITLE] Wriddhiman Saha
+[CATEGORY] Cricket
+[SNIPPET] Wriddhiman Saha is an Indian wicket-keeper widely acknowledged as one of the finest glovemen in Test cricket history.
+
+[TITLE] Dinesh Karthik
+[CATEGORY] Cricket
+[SNIPPET] Dinesh Karthik is an Indian veteran wicket-keeper batsman renowned for his incredible adaptability and late-career T20 finishing heroics.
+
+[TITLE] Shikhar Dhawan
+[CATEGORY] Cricket
+[SNIPPET] Shikhar Dhawan, nicknamed Gabbar, is an explosive Indian opening left-handed batsman who excelled in ICC tournaments.
+
+[TITLE] Suresh Raina
+[CATEGORY] Cricket
+[SNIPPET] Suresh Raina was a vital pillar of India's white-ball cricket, known for his aggressive fielding, spin-hitting, and being the first Indian to score centuries in all three formats.
+
+[TITLE] Yuvraj Singh
+[CATEGORY] Cricket
+[SNIPPET] Yuvraj Singh was an iconic Indian all-rounder who played a monumental role in India's 2007 T20 World Cup and 2011 ODI World Cup victories, famously hitting six sixes in an over.
+
+[TITLE] Anil Kumble
+[CATEGORY] Cricket
+[SNIPPET] Anil Kumble is India's highest wicket-taker in Test cricket and one of only two bowlers in history to take all ten wickets in a single Test innings.
+
+[TITLE] Kapil Dev
+[CATEGORY] Cricket
+[SNIPPET] Kapil Dev is legendary Indian all-rounder who captained India to their historic maiden Cricket World Cup victory in 1983.
+
+[TITLE] Sunil Gavaskar
+[CATEGORY] Cricket
+[SNIPPET] Sunil Gavaskar is a legendary Indian opening batsman who was the first player in history to score 10,000 Test runs, renowned for facing fearsome fast bowling without a helmet.
+
+[TITLE] Rahul Dravid
+[CATEGORY] Cricket
+[SNIPPET] Rahul Dravid, nicknamed The Wall, is a legendary Indian batsman and former captain known for his defensive technique, immense concentration, and later coaching the national team to World Cup success.
+
+[TITLE] Sourav Ganguly
+[CATEGORY] Cricket
+[SNIPPET] Sourav Ganguly, nicknamed Dada, is a former Indian captain credited with transforming the aggressive mindset and overseas resilience of the Indian cricket team.
+
+[TITLE] VVS Laxman
+[CATEGORY] Cricket
+[SNIPPET] VVS Laxman is an Indian batting legend immortalized by his magnificent 281 against Australia at Eden Gardens in 2001.
+
+[TITLE] Virender Sehwag
+[CATEGORY] Cricket
+[SNIPPET] Virender Sehwag was a destructive Indian opening batsman renowned for scoring triple centuries in Test cricket with unmatched scoring speed.
+
+[TITLE] Zaheer Khan
+[CATEGORY] Cricket
+[SNIPPET] Zaheer Khan is India's premier left-arm fast bowler who spearheaded the bowling attack to victory in the 2011 World Cup.
+
+[TITLE] Harbhajan Singh
+[CATEGORY] Cricket
+[SNIPPET] Harbhajan Singh, nicknamed The Turbanator, was a legendary Indian off-spinner who terrorized opposition batting line-ups in the 2000s.
+
+[TITLE] Gautam Gambhir
+[CATEGORY] Cricket
+[SNIPPET] Gautam Gambhir was a gritty Indian opening batsman who played monumental match-winning knocks in the finals of the 2007 T20 World Cup and 2011 ODI World Cup.
+
+[TITLE] Steve Smith
+[CATEGORY] Cricket
+[SNIPPET] Steve Smith is an Australian international cricketer widely recognized for his unorthodox batting technique and phenomenal Test match batting averages.
+
+[TITLE] David Warner
+[CATEGORY] Cricket
+[SNIPPET] David Warner is an explosive Australian opening left-handed batsman who excelled across all three international formats.
+
+[TITLE] Pat Cummins
+[CATEGORY] Cricket
+[SNIPPET] Pat Cummins is the elite captain of the Australian cricket team, renowned for his world-class fast bowling and leading Australia to World Test Championship and ODI World Cup titles.
+
+[TITLE] Mitchell Starc
+[CATEGORY] Cricket
+[SNIPPET] Mitchell Starc is an Australian left-arm fast bowler famous for his searing pace, lethal inswinging yorkers, and dominance in ICC World Cups.
+
+[TITLE] Josh Hazlewood
+[CATEGORY] Cricket
+[SNIPPET] Josh Hazlewood is an Australian fast bowler known for his relentless line, length, and metronomic accuracy.
+
+[TITLE] Travis Head
+[CATEGORY] Cricket
+[SNIPPET] Travis Head is an Australian aggressive left-handed batsman famous for scoring match-winning centuries in major ICC tournament finals.
+
+[TITLE] Marnus Labuschagne
+[CATEGORY] Cricket
+[SNIPPET] Marnus Labuschagne is a prolific Australian Test batsman known for his eccentric mannerisms and stubborn crease occupation.
+
+[TITLE] Glenn Maxwell
+[CATEGORY] Cricket
+[SNIPPET] Glenn Maxwell, nicknamed The Big Show, is an Australian all-rounder renowned for his freakish 360-degree power-hitting in white-ball cricket.
+
+[TITLE] Marcus Stoinis
+[CATEGORY] Cricket
+[SNIPPET] Marcus Stoinis is an Australian white-ball all-rounder known for his powerful batting and medium-pace bowling.
+
+[TITLE] Adam Zampa
+[CATEGORY] Cricket
+[SNIPPET] Adam Zampa is Australia's premier white-ball leg-spin bowler, crucial to their limited-overs successes.
+
+[TITLE] Kane Williamson
+[CATEGORY] Cricket
+[SNIPPET] Kane Williamson is a New Zealand international cricketer and former captain, admired globally for his elegant technique and exemplary sportsmanship.
+
+[TITLE] Trent Boult
+[CATEGORY] Cricket
+[SNIPPET] Trent Boult is a New Zealand left-arm fast bowler famous for his trademark inswingers to right-handed opening batsmen.
+
+[TITLE] Tim Southee
+[CATEGORY] Cricket
+[SNIPPET] Tim Southee is an experienced New Zealand fast bowler with hundreds of international wickets across formats.
+
+[TITLE] Devon Conway
+[CATEGORY] Cricket
+[SNIPPET] Devon Conway is a reliable New Zealand opening batsman across all three formats.
+
+[TITLE] Rachin Ravindra
+[CATEGORY] Cricket
+[SNIPPET] Rachin Ravindra is a young New Zealand batting sensation who made a historic breakthrough during the 2023 ICC World Cup.
+
+[TITLE] Joe Root
+[CATEGORY] Cricket
+[SNIPPET] Joe Root is an English international cricketer and former Test captain, recognized as one of modern cricket's finest classical century makers.
+
+[TITLE] Ben Stokes
+[CATEGORY] Cricket
+[SNIPPET] Ben Stokes is the inspirational captain of England's Test team, famous for his clutch all-round performances in the 2019 World Cup final and Headingley Test.
+
+[TITLE] Jos Buttler
+[CATEGORY] Cricket
+[SNIPPET] Jos Buttler is an explosive English white-ball captain and wicket-keeper batsman renowned for his destructive strokeplay.
+
+[TITLE] Jonny Bairstow
+[CATEGORY] Cricket
+[SNIPPET] Jonny Bairstow is an aggressive English international batsman known for his powerful counter-attacking style.
+
+[TITLE] Jofra Archer
+[CATEGORY] Cricket
+[SNIPPET] Jofra Archer is an English fast bowler renowned for his express pace and lethal bouncers.
+
+[TITLE] Harry Brook
+[CATEGORY] Cricket
+[SNIPPET] Harry Brook is an exciting young English batsman known for his aggressive style across Test and white-ball formats.
+
+[TITLE] Babar Azam
+[CATEGORY] Cricket
+[SNIPPET] Babar Azam is a Pakistani international cricketer and former captain, celebrated for his elegant cover drives and consistent run-scoring across formats.
+
+[TITLE] Shaheen Afridi
+[CATEGORY] Cricket
+[SNIPPET] Shaheen Shah Afridi is a premier Pakistani left-arm fast bowler known for his devastating first-over swinging deliveries.
+
+[TITLE] Mohammad Rizwan
+[CATEGORY] Cricket
+[SNIPPET] Mohammad Rizwan is a Pakistani wicket-keeper batsman known for his tenacity, stamina, and gritty run-scoring under pressure.
+
+[TITLE] Naseem Shah
+[CATEGORY] Cricket
+[SNIPPET] Naseem Shah is a dynamic Pakistani fast bowler known for his raw pace and aggressive bowling spells.
+
+[TITLE] Fakhar Zaman
+[CATEGORY] Cricket
+[SNIPPET] Fakhar Zaman is a destructive Pakistani opening left-handed batsman known for scoring double centuries in ODIs.
+
+[TITLE] Rashid Khan
+[CATEGORY] Cricket
+[SNIPPET] Rashid Khan is an Afghan international cricketer widely considered the finest leg-spinner in modern T20 franchise and international cricket.
+
+[TITLE] Shakib Al Hasan
+[CATEGORY] Cricket
+[SNIPPET] Shakib Al Hasan is Bangladesh's greatest all-rounder, consistently ranking among the top all-rounders in ICC rankings across formats.
+
+[TITLE] Quinton de Kock
+[CATEGORY] Cricket
+[SNIPPET] Quinton de Kock is a South African explosive wicket-keeper batsman known for his aggressive opening strokeplay.
+
+[TITLE] Kagiso Rabada
+[CATEGORY] Cricket
+[SNIPPET] Kagiso Rabada is South Africa's premier fast bowler, known for his aggressive pace and consistent wicket-taking ability.
+
+[TITLE] Aiden Markram
+[CATEGORY] Cricket
+[SNIPPET] Aiden Markram is a classy South African opening batsman and white-ball captain.
+
+[TITLE] Anrich Nortje
+[CATEGORY] Cricket
+[SNIPPET] Anrich Nortje is a South African fast bowler known for clocking extreme express speeds.
+
+[TITLE] Heinrich Klaasen
+[CATEGORY] Cricket
+[SNIPPET] Heinrich Klaasen is a destructive South African middle-order batsman renowned for demolishing spin bowling.
+
+[TITLE] Nicholas Pooran
+[CATEGORY] Cricket
+[SNIPPET] Nicholas Pooran is a West Indian explosive left-handed wicket-keeper batsman and T20 global star.
+
+[TITLE] Andre Russell
+[CATEGORY] Cricket
+[SNIPPET] Andre Russell is a West Indian power-hitting all-rounder renowned for his match-winning six-hitting capabilities in franchise leagues worldwide.
+
+[TITLE] Sunil Narine
+[CATEGORY] Cricket
+[SNIPPET] Sunil Narine is a legendary West Indian mystery spinner and explosive opening batsman in T20 cricket.
+
+[TITLE] Rashid Latif and Inzamam-ul-Haq
+[CATEGORY] Cricket
+[SNIPPET] Inzamam-ul-Haq was one of Pakistan's greatest middle-order batsmen, famous for his calm demeanor and exceptional play against fast bowling.
+
+[TITLE] Brian Lara
+[CATEGORY] Cricket
+[SNIPPET] Brian Lara is a legendary West Indian batsman holding the world record for the highest individual score in a first-class match (501 not out) and Test innings (400 not out).
+
+[TITLE] Sir Vivian Richards
+[CATEGORY] Cricket
+[SNIPPET] Sir Vivian Richards is a legendary West Indian batsman feared by bowlers worldwide for his aggressive, helmetless strokeplay and dominant leadership.
+
+[TITLE] Sir Donald Bradman
+[CATEGORY] Cricket
+[SNIPPET] Sir Donald Bradman was an Australian cricketer universally acknowledged as the greatest Test batsman of all time, finishing with an immortal Test batting average of 99.94.
+
+[TITLE] Football Association Soccer History
+[CATEGORY] Football
+[SNIPPET] Association football is played between two teams of eleven players with a spherical ball. It is the world's most popular sport, governed by FIFA.
+
+[TITLE] Lionel Messi
+[CATEGORY] Football
+[SNIPPET] Lionel Messi is an Argentine professional footballer widely regarded as the greatest player in history, holding a record eight Ballon d'Or awards and winning the 2022 FIFA World Cup.
+
+[TITLE] Cristiano Ronaldo
+[CATEGORY] Football
+[SNIPPET] Cristiano Ronaldo is a Portuguese professional footballer who holds records for the most international goals and UEFA Champions League goals, with five Ballon d'Or awards.
+
+[TITLE] Pelé
+[CATEGORY] Football
+[SNIPPET] Edson Arantes do Nascimento, known as Pelé, was a Brazilian professional footballer who won a record three FIFA World Cups and scored over 1,000 professional goals.
+
+[TITLE] Diego Maradona
+[CATEGORY] Football
+[SNIPPET] Diego Maradona was an Argentine football legend famous for his magical dribbling skills and captaining Argentina to victory in the 1986 World Cup, including the famous Hand of God and Goal of the Century.
+
+[TITLE] Kylian Mbappé
+[CATEGORY] Football
+[SNIPPET] Kylian Mbappé is a French professional footballer known for his blistering speed, lethal finishing, and winning the 2018 FIFA World Cup at a young age.
+
+[TITLE] Erling Haaland
+[CATEGORY] Football
+[SNIPPET] Erling Haaland is a Norwegian professional striker renowned for his phenomenal goalscoring efficiency, strength, and positioning in the penalty box.
+
+[TITLE] Kevin De Bruyne
+[CATEGORY] Football
+[SNIPPET] Kevin De Bruyne is a Belgian professional footballer widely considered one of the greatest playmakers and passers in modern football history.
+
+[TITLE] Neymar Jr
+[CATEGORY] Football
+[SNIPPET] Neymar da Silva Santos Júnior is a Brazilian professional footballer known for his samba flair, dribbling skills, and creativity on the pitch.
+
+[TITLE] Luka Modrić
+[CATEGORY] Football
+[SNIPPET] Luka Modrić is a Croatian midfielder renowned for his exceptional vision, passing range, and winning the Ballon d'Or in 2018.
+
+[TITLE] Robert Lewandowski
+[CATEGORY] Football
+[SNIPPET] Robert Lewandowski is a Polish striker recognized as one of the most lethal goalscorers in European football history.
+
+[TITLE] Karim Benzema
+[CATEGORY] Football
+[SNIPPET] Karim Benzema is a French striker known for his exceptional link-up play, goalscoring prowess, and winning the Ballon d'Or in 2022.
+
+[TITLE] Mohamed Salah
+[CATEGORY] Football
+[SNIPPET] Mohamed Salah is an Egyptian professional footballer who plays as a forward for Liverpool, celebrated as one of Africa's greatest football exports.
+
+[TITLE] Vinícius Júnior
+[CATEGORY] Football
+[SNIPPET] Vinícius Júnior is a Brazilian winger known for his explosive dribbling, pace, and decisive performances for Real Madrid.
+
+[TITLE] Jude Bellingham
+[CATEGORY] Football
+[SNIPPET] Jude Bellingham is an English midfielder who rose to global stardom with extraordinary goalscoring and leadership performances for Real Madrid.
+
+[TITLE] Harry Kane
+[CATEGORY] Football
+[SNIPPET] Harry Kane is an English professional striker renowned for his elite goalscoring consistency and playmaking ability.
+
+[TITLE] Virgil van Dijk
+[CATEGORY] Football
+[SNIPPET] Virgil van Dijk is a Dutch central defender known for his composure, aerial dominance, and leadership for Liverpool.
+
+[TITLE] Thibaut Courtois
+[CATEGORY] Football
+[SNIPPET] Thibaut Courtois is a Belgian goalkeeper widely regarded as one of the best shot-stoppers in world football.
+
+[TITLE] Alisson Becker
+[CATEGORY] Football
+[SNIPPET] Alisson Becker is a Brazilian goalkeeper renowned for his exceptional positional awareness and distribution.
+
+[TITLE] Manuel Neuer
+[CATEGORY] Football
+[SNIPPET] Manuel Neuer is a legendary German goalkeeper credited with revolutionizing the 'sweeper-keeper' role in modern football.
+
+[TITLE] Zinedine Zidane
+[CATEGORY] Football
+[SNIPPET] Zinedine Zidane was a legendary French midfielder known for his supreme elegance, ball control, and scoring the iconic volley in the 2002 Champions League final.
+
+[TITLE] Ronaldinho
+[CATEGORY] Football
+[SNIPPET] Ronaldinho was a Brazilian football wizard adored globally for his joyful playing style, tricks, and free-kick mastery.
+
+[TITLE] Thierry Henry
+[CATEGORY] Football
+[SNIPPET] Thierry Henry was a prolific French striker and Arsenal legend known for his pace, composure, and sublime curling finishes.
+
+[TITLE] Xavi Hernandez and Andres Iniesta
+[CATEGORY] Football
+[SNIPPET] Xavi and Iniesta were the midfield masterminds of Barcelona and Spain's tiki-taka tactical era, winning back-to-back Euros and the 2010 World Cup.
+
+[TITLE] Sergio Ramos
+[CATEGORY] Football
+[SNIPPET] Sergio Ramos is a legendary Spanish central defender known for his fierce competitiveness, leadership, and scoring crucial late goals.
+
+[TITLE] Sunil Chhetri
+[CATEGORY] Football
+[SNIPPET] Sunil Chhetri is an Indian professional footballer who captained the Indian national team and stands among the highest international goalscorers in football history alongside Ronaldo and Messi.
+
+[TITLE] Gurpreet Singh Sandhu
+[CATEGORY] Football
+[SNIPPET] Gurpreet Singh Sandhu is an Indian goalkeeper, affectionately called the 'Wall of Indian Football', known for his towering presence and crucial saves.
+
+[TITLE] Sandesh Jhingan
+[CATEGORY] Football
+[SNIPPET] Sandesh Jhingan is an Indian central defender recognized for his aggressive defensive blocks and leadership in the national team.
+
+[TITLE] Bhaichung Bhutia
+[CATEGORY] Football
+[SNIPPET] Bhaichung Bhutia was a trailblazing Indian striker who pioneered professional Indian football internationally.
+
+[TITLE] IM Vijayan
+[CATEGORY] Football
+[SNIPPET] IM Vijayan is a legendary Indian striker celebrated for his exceptional skill and artistry on the football pitch.
+
+[TITLE] Chess History and India's Grandmasters
+[CATEGORY] Chess
+[SNIPPET] Chess is a board game originating from the ancient Indian game Chaturanga before the 6th century AD. India has become a global chess superpower with prodigies like Anand, Praggnanandhaa, and Gukesh.
+
+[TITLE] Viswanathan Anand
+[CATEGORY] Chess
+[SNIPPET] Viswanathan Anand is an Indian chess grandmaster and former five-time World Chess Champion, celebrated as India's greatest chess icon.
+
+[TITLE] Rameshbabu Praggnanandhaa
+[CATEGORY] Chess
+[SNIPPET] R Praggnanandhaa is an Indian chess grandmaster recognized globally as a teenage prodigy who defeated world champions like Magnus Carlsen.
+
+[TITLE] D Gukesh
+[CATEGORY] Chess
+[SNIPPET] D Gukesh is an elite Indian chess grandmaster who made history by winning the Candidates Tournament and challenging for the World Chess Championship title.
+
+[TITLE] Arjun Erigaisi
+[CATEGORY] Chess
+[SNIPPET] Arjun Erigaisi is a top-ranked Indian chess grandmaster known for his brilliant tactical calculation and high rating milestones.
+
+[TITLE] Nihal Sarin
+[CATEGORY] Chess
+[SNIPPET] Nihal Sarin is a precocious Indian chess grandmaster renowned for his incredible speed and mastery in blitz and rapid formats.
+
+[TITLE] Pentala Harikrishna
+[CATEGORY] Chess
+[SNIPPET] Pentala Harikrishna is an experienced Indian grandmaster who has represented the country with distinction for decades.
+
+[TITLE] Vidit Gujrathi
+[CATEGORY] Chess
+[SNIPPET] Vidit Gujrathi is an Indian grandmaster and key member of India's historic gold-winning Chess Olympiad squad.
+
+[TITLE] Koneru Humpy
+[CATEGORY] Chess
+[SNIPPET] Koneru Humpy is a legendary Indian chess grandmaster who held the record for the youngest female to achieve the grandmaster title and won world rapid championship gold.
+
+[TITLE] Harika Dronavalli
+[CATEGORY] Chess
+[SNIPPET] Harika Dronavalli is an elite Indian chess grandmaster and multiple-time World Championship bronze medalist.
+
+[TITLE] R Vaishali
+[CATEGORY] Chess
+[SNIPPET] R Vaishali is an Indian chess grandmaster who achieved elite status alongside her brother Praggnanandhaa.
+
+[TITLE] Divya Deshmukh
+[CATEGORY] Chess
+[SNIPPET] Divya Deshmukh is a rising Indian chess star who clinched World Junior Girls Championship titles.
+
+[TITLE] Magnus Carlsen
+[CATEGORY] Chess
+[SNIPPET] Magnus Carlsen is a Norwegian chess grandmaster who is a multi-time World Chess Champion and widely regarded as the greatest chess player in history.
+
+[TITLE] Fabiano Caruana
+[CATEGORY] Chess
+[SNIPPET] Fabiano Caruana is an American chess grandmaster known for his deep opening preparation and elite classical ranking.
+
+[TITLE] Hikaru Nakamura
+[CATEGORY] Chess
+[SNIPPET] Hikaru Nakamura is an American grandmaster and streaming pioneer renowned for his blitz and rapid chess dominance.
+
+[TITLE] Ian Nepomniachtchi
+[CATEGORY] Chess
+[SNIPPET] Ian Nepomniachtchi is a Russian grandmaster who won multiple Candidates Tournaments and competed in World Championship matches.
+
+[TITLE] Ding Liren
+[CATEGORY] Chess
+[SNIPPET] Ding Liren is a Chinese chess grandmaster who became the World Chess Champion.
+
+[TITLE] Kabaddi - Ancient Indian Indigenous Sport
+[CATEGORY] Kabaddi
+[SNIPPET] Kabaddi is a contact team sport originating in ancient India. The Pro Kabaddi League transformed it into a modern, high-intensity professional spectacle.
+
+[TITLE] Pardeep Narwal
+[CATEGORY] Kabaddi
+[SNIPPET] Pardeep Narwal, nicknamed the 'Dubki King', is a legendary Indian kabaddi player renowned for his record-breaking raid points and multi-point raid masterclasses in the PKL.
+
+[TITLE] Pawan Sehrawat
+[CATEGORY] Kabaddi
+[SNIPPET] Pawan Sehrawat, nicknamed the 'High-Flyer', is an explosive Indian kabaddi raider known for his incredible jumping reach and unstoppable scoring speed.
+
+[TITLE] Naveen Kumar
+[CATEGORY] Kabaddi
+[SNIPPET] Naveen Kumar, known as the 'Express', is a premier Indian kabaddi raider famous for his lightning-fast running hand touches.
+
+[TITLE] Fazel Atrachali
+[CATEGORY] Kabaddi
+[SNIPPET] Fazel Atrachali is an Iranian kabaddi legend and one of the most successful defensive corner defenders in Pro Kabaddi League history.
+
+[TITLE] Mohammad Nabibakhsh
+[CATEGORY] Kabaddi
+[SNIPPET] Mohammad Nabibakhsh is an Iranian all-rounder known for his tactical brilliance and clutch performances in kabaddi.
+
+[TITLE] Manjeet Chhillar
+[CATEGORY] Kabaddi
+[SNIPPET] Manjeet Chhillar is a legendary Indian all-rounder renowned for his powerhouse defensive ankle holds and leadership.
+
+[TITLE] Anup Kumar
+[CATEGORY] Kabaddi
+[SNIPPET] Anup Kumar, nicknamed 'Bonus Ka Badshah', is a World Cup-winning Indian kabaddi captain known for his calm tactical raiding mind.
+
+[TITLE] Ajay Thakur
+[CATEGORY] Kabaddi
+[SNIPPET] Ajay Thakur is an iconic Indian kabaddi raider whose towering height and escaping skills won India multiple international gold medals.
+
+[TITLE] Rahul Chaudhari
+[CATEGORY] Kabaddi
+[SNIPPET] Rahul Chaudhari, known as the 'Poster Boy' of kabaddi, was one of the earliest superstar raiders to cross 1000 PKL raid points.
+
+[TITLE] Sunil Kumar
+[CATEGORY] Kabaddi
+[SNIPPET] Sunil Kumar is a stalwart Indian kabaddi cover defender known for his inspiring captaincy and rock-solid defensive organization.
+
+[TITLE] Field Hockey History and India's Golden Era
+[CATEGORY] Field Hockey
+[SNIPPET] Field hockey is played by teams of eleven players using sticks. India dominated the Olympics with eight gold medals, led by legends like Major Dhyan Chand.
+
+[TITLE] Major Dhyan Chand
+[CATEGORY] Field Hockey
+[SNIPPET] Major Dhyan Chand was an Indian field hockey player widely considered the greatest in history, winning three Olympic gold medals with unmatched stickwork.
+
+[TITLE] PR Sreejesh
+[CATEGORY] Field Hockey
+[SNIPPET] PR Sreejesh is a legendary Indian goalkeeper affectionately known as the 'Great Wall of Indian Hockey', winning back-to-back Olympic bronze medals.
+
+[TITLE] Harmanpreet Singh
+[CATEGORY] Field Hockey
+[SNIPPET] Harmanpreet Singh is an elite drag-flicker and captain of the Indian men's field hockey team, renowned for his clutch penalty corner conversions.
+
+[TITLE] Manpreet Singh
+[CATEGORY] Field Hockey
+[SNIPPET] Manpreet Singh is an inspirational Indian midfielder who captained India to historic Olympic podium finishes.
+
+[TITLE] Rani Rampal
+[CATEGORY] Field Hockey
+[SNIPPET] Rani Rampal is a legendary former captain of the Indian women's hockey team who inspired a generation with her leadership and goalscoring.
+
+[TITLE] Tennis Origins and Grand Slam Tournaments
+[CATEGORY] Tennis
+[SNIPPET] Tennis is governed by the ITF and features four Grand Slam tournaments: Australian Open, French Open, Wimbledon, and US Open.
+
+[TITLE] Roger Federer
+[CATEGORY] Tennis
+[SNIPPET] Roger Federer is a Swiss tennis legend celebrated for his supreme elegance, 20 Grand Slam titles, and graceful style of play.
+
+[TITLE] Rafael Nadal
+[CATEGORY] Tennis
+[SNIPPET] Rafael Nadal is a Spanish tennis icon known as the 'King of Clay', capturing 22 Grand Slam singles titles with unmatched tenacity and topspin.
+
+[TITLE] Novak Djokovic
+[CATEGORY] Tennis
+[SNIPPET] Novak Djokovic is a Serbian tennis maestro holding the all-time record for the most men's Grand Slam singles titles and weeks ranked world number one.
+
+[TITLE] Carlos Alcaraz
+[CATEGORY] Tennis
+[SNIPPET] Carlos Alcaraz is a dynamic Spanish tennis superstar known for his explosive power, drop shots, and winning multiple Grand Slam titles at a young age.
+
+[TITLE] Jannik Sinner
+[CATEGORY] Tennis
+[SNIPPET] Jannik Sinner is an Italian tennis star renowned for his blistering baseline groundstrokes and rise to world number one rankings.
+
+[TITLE] Leander Paes
+[CATEGORY] Tennis
+[SNIPPET] Leander Paes is an Indian tennis legend who won multiple Grand Slam titles in doubles and mixed doubles, alongside an Olympic bronze medal.
+
+[TITLE] Mahesh Bhupathi
+[CATEGORY] Tennis
+[SNIPPET] Mahesh Bhupathi was India's first Grand Slam tournament winner, pioneering Indian success in international tennis doubles.
+
+[TITLE] Sania Mirza
+[CATEGORY] Tennis
+[SNIPPET] Sania Mirza is India's greatest female tennis player, winning multiple Grand Slam titles and inspiring women across South Asia.
+
+[TITLE] Badminton History and PV Sindhu
+[CATEGORY] Badminton
+[SNIPPET] Modern badminton was developed in British India in Pune. PV Sindhu is India's pioneering Olympic medalist in the sport.
+
+[TITLE] Prakash Padukone
+[CATEGORY] Badminton
+[SNIPPET] Prakash Padukone is a legendary Indian badminton player who became the first Indian to win the prestigious All England Open in 1980.
+
+[TITLE] Pullela Gopichand
+[CATEGORY] Badminton
+[SNIPPET] Pullela Gopichand is an All England Open champion and legendary Indian coach who built world-class champions at his academy.
+
+[TITLE] Saina Nehwal
+[CATEGORY] Badminton
+[SNIPPET] Saina Nehwal is a pioneering Indian badminton star who achieved world number one ranking and won an Olympic bronze medal in 2012.
+
+[TITLE] Kidambi Srikanth
+[CATEGORY] Badminton
+[SNIPPET] Kidambi Srikanth is an Indian badminton star who reached world number one ranking after winning multiple Super Series titles in a single year.
+
+[TITLE] Satwiksairaj Rankireddy and Chirag Shetty
+[CATEGORY] Badminton
+[SNIPPET] Satwik and Chirag form India's premier men's doubles badminton pair, winning historic Gold medals at the Asian Games, Commonwealth Games, and BWF World Tour events.
+
+[TITLE] Usain Bolt
+[CATEGORY] Athletics
+[SNIPPET] Usain Bolt is a Jamaican former sprinter widely considered the greatest sprinter of all time, holding world records in the 100m and 200m.
+
+[TITLE] Neeraj Chopra
+[CATEGORY] Athletics
+[SNIPPET] Neeraj Chopra is an Indian track and field athlete who became the first Indian Olympic gold medalist in javelin throw.
+
+[TITLE] Formula 1 World Championship History
+[CATEGORY] Formula 1
+[SNIPPET] Formula One is the highest class of international racing for open-wheel single-seater cars sanctioned by the FIA.
+
+[TITLE] Lewis Hamilton
+[CATEGORY] Formula 1
+[SNIPPET] Sir Lewis Hamilton shares the record for the most F1 World Drivers' Championships with seven titles, holding records for most race wins and pole positions.
+
+[TITLE] Michael Schumacher
+[CATEGORY] Formula 1
+[SNIPPET] Michael Schumacher is a legendary German F1 driver who won seven World Championships, dominating an era with Ferrari.
+
+[TITLE] Max Verstappen
+[CATEGORY] Formula 1
+[SNIPPET] Max Verstappen is a Dutch F1 racing driver renowned for his aggressive overtaking, ruthless consistency, and multiple World Championships with Red Bull.

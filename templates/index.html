@@ -3,178 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sportpedia | Global Sports Knowledge Engine</title>
+    <title>Sportpedia | AI & C Powered Sports Encyclopedia</title>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    
-    <style>
-        :root {
-            --bg-primary: #0f172a;
-            --bg-secondary: #1e293b;
-            --border-color: #334155;
-            --text-main: #f8fafc;
-            --text-muted: #94a3b8;
-            --primary-blue: #3b82f6;
-            --primary-hover: #2563eb;
-        }
-
-        body {
-            background-color: var(--bg-primary);
-            color: var(--text-main);
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            min-height: 100vh;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-
-        .hero-section {
-            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
-            border-bottom: 1px solid var(--border-color);
-            padding: 4rem 1rem 3rem 1rem;
-        }
-
-        .search-container {
-            background: rgba(30, 41, 59, 0.8);
-            border: 1px solid var(--border-color);
-            border-radius: 16px;
-            padding: 8px;
-            backdrop-filter: blur(12px);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-        }
-
-        .search-input {
-            background: transparent !important;
-            border: none !important;
-            color: var(--text-main) !important;
-            font-size: 1.1rem;
-            box-shadow: none !important;
-        }
-
-        .search-input::placeholder { color: var(--text-muted); }
-
-        .search-btn {
-            background: var(--primary-blue);
-            color: white;
-            border: none;
-            border-radius: 12px;
-            padding: 0 1.5rem;
-            font-weight: 600;
-        }
-
-        .search-btn:hover { background: var(--primary-hover); }
-
-        .results-wrapper { max-width: 800px; margin: 0 auto; width: 100%; }
-
-        .result-card {
-            background: var(--bg-secondary);
-            border: 1px solid var(--border-color);
-            border-radius: 14px;
-            padding: 1.75rem;
-            margin-bottom: 1.25rem;
-            transition: transform 0.2s ease, border-color 0.2s ease;
-        }
-
-        .result-card:hover {
-            transform: translateY(-2px);
-            border-color: var(--primary-blue);
-        }
-
-        .badge-category {
-            background: rgba(59, 130, 246, 0.1);
-            color: #60a5fa;
-            border: 1px solid rgba(59, 130, 246, 0.2);
-            font-size: 0.75rem;
-            padding: 4px 10px;
-            border-radius: 6px;
-            font-weight: 600;
-            text-transform: uppercase;
-        }
-
-        footer {
-            border-top: 1px solid var(--border-color);
-            padding: 1.5rem 0;
-            text-align: center;
-            color: var(--text-muted);
-            background: var(--bg-secondary);
-            font-size: 0.85rem;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <div class="hero-section text-center">
-        <div class="container" style="max-width: 700px;">
-            <h1 class="display-5 fw-bold text-white mb-2">🏆 Sportpedia</h1>
-            <p class="text-muted mb-4">The open encyclopedia powered by your custom C search engine</p>
-            
-            <div class="input-group search-container">
-                <input type="text" id="searchInput" class="form-control search-input" placeholder="Search athletes, tournaments, rules (e.g., Messi, Cricket)..." autofocus>
-                <button class="btn search-btn" type="button" onclick="performSearch()">Search</button>
+
+    <!-- Top Navigation Bar (Buttons visible by default) -->
+    <nav class="navbar-glass d-flex justify-content-between align-items-center">
+        <a href="/" class="brand-logo">🏆 Sportpedia</a>
+        <div id="authArea">
+            <button class="btn btn-sm btn-outline-primary rounded-pill px-3 me-2" onclick="openAuthModal(true)">Login</button>
+            <button class="btn btn-sm btn-primary rounded-pill px-3" onclick="openAuthModal(false)">Create Account</button>
+        </div>
+    </nav>
+
+    <!-- Hero & Voice Search Section -->
+    <section class="hero-wrapper text-center">
+        <div class="container" style="max-width: 720px;">
+            <h1 class="display-5 fw-bold text-white mb-2">Global Sports Knowledge Engine</h1>
+            <p class="text-secondary mb-4">High-speed C binary indexing with voice recognition & cloud history</p>
+
+            <div class="search-box">
+                <i class="bi bi-search text-secondary ms-2 fs-5"></i>
+                <input type="text" id="searchInput" class="form-control search-input" placeholder="Search athletes, sports, records (or click the mic)..." autofocus>
+                <button type="button" id="voiceBtn" class="voice-btn" onclick="startVoiceSearch()" title="Search by Voice">
+                    <i class="bi bi-mic-fill fs-5"></i>
+                </button>
+                <button type="button" class="search-submit-btn" onclick="performSearch()">Search</button>
+            </div>
+
+            <div id="voiceStatus" class="text-info small mt-2 font-monospace d-none"></div>
+
+            <!-- Cloud Search History Chips (Visible when logged in) -->
+            <div id="historySection" class="mt-4 text-start d-none">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <span class="text-secondary small fw-semibold text-uppercase">Your Cloud Search History</span>
+                    <button class="btn btn-link btn-sm text-secondary text-decoration-none p-0" onclick="clearSearchHistory()">Clear</button>
+                </div>
+                <div id="historyList" class="d-flex flex-wrap gap-2"></div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="container my-5 results-wrapper">
-        <div id="resultsCount" class="text-muted mb-3 font-monospace small"></div>
+    <!-- Results Section -->
+    <main class="container my-4" style="max-width: 800px;">
+        <div id="resultsCount" class="text-secondary mb-3 font-monospace small"></div>
         <div id="resultsContainer">
-            <div class="text-center text-muted py-5">
-                <h5>Type a query above to search the global sports records.</h5>
+            <div class="text-center text-secondary py-5">
+                <h5>Type or use Voice Search above to explore global sports records.</h5>
+            </div>
+        </div>
+    </main>
+
+    <!-- Login / Create Account Modal -->
+    <div class="modal fade" id="authModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modal-glass p-3">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="authModalTitle">Login</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="authError" class="alert alert-danger py-2 small d-none"></div>
+                    <form id="authForm" onsubmit="submitAuthForm(event)">
+                        <div class="mb-3">
+                            <label class="form-label small text-secondary">Username</label>
+                            <input type="text" id="authUsername" class="form-control form-control-dark" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label small text-secondary">Password</label>
+                            <input type="password" id="authPassword" class="form-control form-control-dark" required>
+                        </div>
+                        <button type="submit" id="authSubmitBtn" class="btn btn-primary w-100 py-2 fw-semibold rounded-3">Login</button>
+                    </form>
+                    <p id="authToggleText" class="text-center small text-secondary mt-3 mb-0"></p>
+                </div>
             </div>
         </div>
     </div>
 
     <footer>
-        <div class="container"><span>Sportpedia Knowledge Engine &bull; Built with C Inverted Index & Flask</span></div>
+        <span>Sportpedia Engine &bull; C Binary Core + Flask Cloud Auth + Web Speech API</span>
     </footer>
 
-    <script>
-        const searchInput = document.getElementById('searchInput');
-        searchInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') performSearch(); });
-
-        async function performSearch() {
-            const query = searchInput.value.trim();
-            const container = document.getElementById('resultsContainer');
-            const countContainer = document.getElementById('resultsCount');
-
-            if (!query) {
-                container.innerHTML = `<div class="text-center text-muted py-5"><h5>Please enter a search term.</h5></div>`;
-                countContainer.innerHTML = "";
-                return;
-            }
-
-            container.innerHTML = `<div class="text-center text-muted py-5"><div class="spinner-border text-primary" role="status"></div><p class="mt-2 small font-monospace">Searching C index...</p></div>`;
-
-            try {
-                const response = await fetch(`/search?q=${encodeURIComponent(query)}`);
-                const data = await response.json();
-
-                if (!data || data.length === 0 || (data.length === 1 && data[0].id === -1)) {
-                    container.innerHTML = `<div class="result-card text-center py-4"><h4 class="text-danger">No matches found</h4><p class="text-muted small mb-0">Try searching for 'Messi', 'Cricket', or 'Hamilton'.</p></div>`;
-                    countContainer.innerHTML = "";
-                    return;
-                }
-
-                countContainer.innerHTML = `Found ${data.length} result(s) for "<strong>${query}</strong>"`;
-                let htmlOutput = "";
-                data.forEach(item => {
-                    htmlOutput += `
-                        <div class="result-card">
-                            <div class="d-flex justify-content-between align-items-center mb-2">
-                                <span class="badge-category">${item.category || 'General'}</span>
-                                <span class="text-muted font-monospace small">ID: ${item.id}</span>
-                            </div>
-                            <h3 class="h4 text-white mb-2">${item.title}</h3>
-                            <p class="text-secondary mb-0">${item.snippet}</p>
-                        </div>`;
-                });
-                container.innerHTML = htmlOutput;
-            } catch (err) {
-                console.error(err);
-                container.innerHTML = `<div class="alert alert-danger">Error communicating with backend.</div>`;
-            }
-        }
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
