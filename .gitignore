@@ -1,8 +1,11 @@
-venv/
-.venv/
-env/
 __pycache__/
 *.pyc
-*.exe
 *.db
-.vscode/
+*.obj
+*.ilk
+*.pdb
+*.exe
+search_engine
+.satyam/
+.env
+venv/
