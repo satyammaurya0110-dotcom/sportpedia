@@ -23,7 +23,7 @@ except ImportError:
     edge_tts = None
 
 app = Flask(__name__)
-app.secret_key = os.environ.get("SECRET_KEY", "sportpedia-v2-dev-secret-change-me")
+app.secret_key = os.environ.get("SECRET_KEY", "sportpedia-v2-secret-key-change-in-prod")
 
 DATABASE_URL = os.environ.get("DATABASE_URL")
 SQLITE_PATH = os.environ.get("SQLITE_PATH", "sportpedia.db")
@@ -79,19 +79,79 @@ def init_db():
     conn.close()
 
 
+# Ensure tables exist even when started via Gunicorn in Docker/Cloud
+try:
+    init_db()
+except Exception as exc:
+    print("DB init warning:", exc)
+
+
+def parse_corpus_fallback(query="", category=""):
+    """Fallback parser if C binary is not yet compiled on the host."""
+    if not os.path.exists("sports_corpus.txt"):
+        return []
+    records = []
+    cur = None
+    with open("sports_corpus.txt", "r", encoding="utf-8", errors="ignore") as f:
+        for raw in f:
+            line = raw.strip()
+            if line.startswith("[TITLE]"):
+                cur = {"id": len(records) + 1, "title": line[7:].strip(), "category": "General", "snippet": ""}
+                records.append(cur)
+            elif cur and line.startswith("[CATEGORY]"):
+                cur["category"] = line[10:].strip()
+            elif cur and line.startswith("[SNIPPET]"):
+                cur["snippet"] = line[9:].strip()
+
+    q = query.strip().lower()
+    cat_l = category.strip().lower()
+    tokens = q.split() if q else []
+    out = []
+    for r in records:
+        if cat_l and cat_l != "all" and r["category"].lower() != cat_l:
+            continue
+        if not tokens:
+            r["score"] = 100
+            out.append(r)
+            continue
+        tl, cl, sl = r["title"].lower(), r["category"].lower(), r["snippet"].lower()
+        total = 0
+        ok = True
+        for tok in tokens:
+            ts = 0
+            if tl == tok: ts += 100
+            elif tl.startswith(tok): ts += 75
+            elif tok in tl: ts += 55
+            if tok in cl: ts += 30
+            if tok in sl: ts += 15
+            if ts == 0:
+                ok = False
+                break
+            total += ts
+        if ok:
+            r["score"] = min(99, total // len(tokens))
+            out.append(r)
+    out.sort(key=lambda x: (-x["score"], x["title"]))
+    return out
+
+
 def run_c_engine(query="", category=""):
     binary = "./search_engine.exe" if platform.system() == "Windows" else "./search_engine"
-    cmd = [binary, query]
-    if category and category.lower() != "all":
-        cmd.extend(["--category", category])
     t0 = time.perf_counter()
-    res = subprocess.run(cmd, capture_output=True, text=True, check=False)
+    if os.path.exists(binary):
+        cmd = [binary, query]
+        if category and category.lower() != "all":
+            cmd.extend(["--category", category])
+        res = subprocess.run(cmd, capture_output=True, text=True, check=False)
+        elapsed_ms = round((time.perf_counter() - t0) * 1000, 2)
+        try:
+            data = json.loads(res.stdout or "[]")
+            return data, elapsed_ms, "c-binary"
+        except json.JSONDecodeError:
+            pass
+    data = parse_corpus_fallback(query, category)
     elapsed_ms = round((time.perf_counter() - t0) * 1000, 2)
-    try:
-        data = json.loads(res.stdout or "[]")
-    except json.JSONDecodeError:
-        data = []
-    return data, elapsed_ms
+    return data, elapsed_ms, "python-fallback"
 
 
 @app.route("/")
@@ -104,30 +164,33 @@ def search():
     q = request.args.get("q", "").strip()
     category = request.args.get("category", "").strip()
     if q and session.get("user_id"):
-        conn = get_db()
-        cur = conn.cursor()
-        p = placeholder()
-        cur.execute(f"INSERT INTO search_history (user_id, query) VALUES ({p}, {p})", (session["user_id"], q))
-        conn.commit()
-        conn.close()
+        try:
+            conn = get_db()
+            cur = conn.cursor()
+            p = placeholder()
+            cur.execute(f"INSERT INTO search_history (user_id, query) VALUES ({p}, {p})", (session["user_id"], q))
+            conn.commit()
+            conn.close()
+        except Exception:
+            pass
 
-    results, latency_ms = run_c_engine(q, category)
-    return jsonify({"results": results, "count": len(results), "latency_ms": latency_ms})
+    results, latency_ms, engine = run_c_engine(q, category)
+    return jsonify({"results": results, "count": len(results), "latency_ms": latency_ms, "engine": engine})
 
 
 @app.route("/api/categories")
 def api_categories():
-    results, _ = run_c_engine("", "")
+    results, _, _ = run_c_engine("", "")
     counts = {}
     for r in results:
-        cat = r.get("category", "General")
+        cat = r.get("category") or "General"
         counts[cat] = counts.get(cat, 0) + 1
     return jsonify({"total": len(results), "categories": counts})
 
 
 @app.route("/api/random")
 def api_random():
-    results, _ = run_c_engine("", "")
+    results, _, _ = run_c_engine("", "")
     if not results:
         return jsonify({"error": "Corpus empty"}), 404
     return jsonify(random.choice(results))
@@ -208,7 +271,11 @@ def api_history():
         f"SELECT query FROM search_history WHERE user_id = {p} ORDER BY id DESC LIMIT 8",
         (session["user_id"],),
     )
-    rows = [r["query"] for r in cur.fetchall()]
+    rows = []
+    for r in cur.fetchall():
+        q = r["query"]
+        if q not in rows:
+            rows.append(q)
     conn.close()
     return jsonify({"history": rows})
 
